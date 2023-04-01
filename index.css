@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    position: relative;
+    color:  #EEEEEE;
+    font-family: 'Verdana';
+}
+
+#home-score {
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+    
+}
+
+#guest-score {
+    width: 117px;
+    height: 120px;
+    left: 355px;
+    top: 125px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+.home-score-background {
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+.guest-score-background {
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+.home-section {
+    text-align: center;
+}
+
+.guest-section {
+    text-align: center;
+}
+
+.addNumber {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+
+#addone, #addtwo, #addthree {
+    box-sizing: border-box;
+    width: 40px;
+    height: 35px;
+    left: 82px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    margin-left: 4px;
+    margin-right: 4px;
+
+
+}
